@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="36px" height="36px" viewBox="0 0 36 36" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>icn/circle-chk-36-icn@3x</title>
+    <defs>
+        <filter color-interpolation-filters="auto" id="filter-1">
+            <feColorMatrix in="SourceGraphic" type="matrix" values="0 0 0 0 0.016579 0 0 0 0 0.260530 0 0 0 0 0.453408 0 0 0 1.000000 0"></feColorMatrix>
+        </filter>
+    </defs>
+    <g id="icn/circle-chk-36-icn" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <rect id="Rectangle" x="0" y="0" width="36" height="36"></rect>
+        <path d="M15.1714286,32.1428571 C8.66486347,30.5218105 3.85714286,24.8043918 3.85714286,18 C3.85714286,11.1956082 8.66486347,5.47818945 15.1714286,3.85714286" id="Path" stroke="#044274" stroke-width="2" stroke-linecap="round"></path>
+        <path d="M20.8285714,3.85714286 C27.3352219,5.4786504 32.1428571,11.1958969 32.1428571,18 C32.1428571,24.8041031 27.3352219,30.5213496 20.8285714,32.1428571" id="Path" stroke="#044274" stroke-width="2" stroke-linecap="round"></path>
+        <g filter="url(#filter-1)" id="Group">
+            <g transform="translate(19.000000, 15.500000) rotate(45.000000) translate(-19.000000, -15.500000) translate(14.000000, 7.000000)">
+                <rect id="Rectangle-Copy-4" fill="#044274" transform="translate(3.500000, 16.000000) scale(1, -1) translate(-3.500000, -16.000000) " x="0" y="15" width="7" height="2" rx="1"></rect>
+                <rect id="Rectangle-Copy-5" fill="#044274" transform="translate(9.000000, 8.500000) scale(1, -1) translate(-9.000000, -8.500000) " x="8" y="5.68434189e-14" width="2" height="17" rx="1"></rect>
+            </g>
+        </g>
+    </g>
+</svg>

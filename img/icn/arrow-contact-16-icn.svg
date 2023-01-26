@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="16px" height="12px" viewBox="0 0 16 12" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>icn/arrow-contact-16-icn@3x</title>
+    <defs>
+        <filter color-interpolation-filters="auto" id="filter-1">
+            <feColorMatrix in="SourceGraphic" type="matrix" values="0 0 0 0 0.470588 0 0 0 0 0.470588 0 0 0 0 0.470588 0 0 0 1.000000 0"></feColorMatrix>
+        </filter>
+    </defs>
+    <g id="Symbols" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="organisms-/-header-desktop" transform="translate(-1402.000000, -14.000000)">
+            <g id="icn/arrow-contact-16-icn" transform="translate(1400.000000, 10.000000)" filter="url(#filter-1)">
+                <g>
+                    <rect id="Rectangle" stroke="#044274" x="3" y="5" width="14" height="10" rx="1"></rect>
+                    <polyline id="Path" stroke="#044274" stroke-linecap="round" stroke-linejoin="round" points="3.16766739 5.95615196 10 11 13.9868594 8.00985542"></polyline>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

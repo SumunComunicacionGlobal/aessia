@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="24px" height="25px" viewBox="0 0 24 25" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>icn/glass-icn@3x</title>
+    <defs>
+        <filter color-interpolation-filters="auto" id="filter-1">
+            <feColorMatrix in="SourceGraphic" type="matrix" values="0 0 0 0 0.235294 0 0 0 0 0.235294 0 0 0 0 0.235294 0 0 0 1.000000 0"></feColorMatrix>
+        </filter>
+    </defs>
+    <g id="Symbols" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="organisms-/-header-desktop" transform="translate(-1197.000000, -85.000000)">
+            <g id="icn/glass-icn" transform="translate(1194.000000, 83.000000)" filter="url(#filter-1)">
+                <g>
+                    <rect id="Rectangle" x="0" y="0" width="28" height="28"></rect>
+                    <path d="M12.1142857,22.4285714 C7.77657565,21.3478737 4.57142857,17.5362612 4.57142857,13 C4.57142857,8.46373882 7.77657565,4.6521263 12.1142857,3.57142857 M15.8857143,3.57142857 C20.2234813,4.6524336 23.4285714,8.46393127 23.4285714,13 C23.4285714,17.5360687 20.2234813,21.3475664 15.8857143,22.4285714" id="Shape" stroke="#044274" stroke-width="1.71428571" stroke-linecap="round" transform="translate(14.000000, 13.000000) rotate(-330.000000) translate(-14.000000, -13.000000) "></path>
+                    <rect id="Rectangle-Copy-5" fill="#044274" transform="translate(23.353553, 22.767767) rotate(-45.000000) translate(-23.353553, -22.767767) " x="22.3535534" y="18.267767" width="2" height="9" rx="1"></rect>
+                    <path d="M11.4137615,7.58445854 C9.39465079,8.55044028 8,10.6123511 8,13" id="Path"></path>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="15px" height="18px" viewBox="0 0 15 18" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>icn/geoloc-16-icn@3x</title>
+    <defs>
+        <filter color-interpolation-filters="auto" id="filter-1">
+            <feColorMatrix in="SourceGraphic" type="matrix" values="0 0 0 0 0.607843 0 0 0 0 0.752941 0 0 0 0 0.109804 0 0 0 1.000000 0"></feColorMatrix>
+        </filter>
+    </defs>
+    <g id="Symbols" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" stroke-linecap="round">
+        <g id="cards/d-card-prestador" transform="translate(-50.000000, -120.000000)">
+            <g id="icn/geoloc-16-icn" transform="translate(48.000000, 119.000000)" filter="url(#filter-1)">
+                <g>
+                    <path d="M6.72108912,2.71787921 C7.63279237,2.20694062 8.68314354,1.9154 9.8,1.9154 C13.2838224,1.9154 16.1205418,4.75211934 16.1205418,8.23594176 C16.1205418,12.3111863 11.4222724,16.5670178 9.8,17.9154 C8.17772761,16.5670178 3.47945824,12.3111863 3.47945824,8.23594176 C3.47945824,6.74290728 4.0004658,5.36872334 4.87013162,4.2857392" id="Path" stroke="#044274"></path>
+                    <path d="M11.9930301,5.75294726 C11.4455862,5.16666192 10.6658527,4.7998 9.8002,4.7998 C8.1427,4.7998 6.8002,6.1448 6.8002,7.7998 C6.8002,9.4573 8.1427,10.7998 9.8002,10.7998 C11.4577,10.7998 12.8002,9.4573 12.8002,7.7998" id="Path" stroke="#044274"></path>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

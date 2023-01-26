@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="36px" height="36px" viewBox="0 0 36 36" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>icn/close-36-icn@3x</title>
+    <g id="icn/close-36-icn" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <rect id="Rectangle" x="0" y="0" width="36" height="36"></rect>
+        <g id="Group" transform="translate(18.000000, 18.000000) rotate(-135.000000) translate(-18.000000, -18.000000) translate(2.000000, 2.000000)" fill="#044274">
+            <rect id="Rectangle-Copy-4" x="0" y="15" width="32" height="2" rx="1"></rect>
+            <rect id="Rectangle-Copy-5" x="15" y="0" width="2" height="5" rx="1"></rect>
+            <rect id="Rectangle-Copy-5" x="15" y="6" width="2" height="26" rx="1"></rect>
+        </g>
+    </g>
+</svg>

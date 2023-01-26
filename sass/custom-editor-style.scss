@@ -1,0 +1,93 @@
+//Add your own editor styles here or comment out the next line if you want to pull in the whole Bootstrap stuff
+// @import "theme";
+// @import url("https://fonts.googleapis.com/css?family=Open+Sans:300,400,400i,600,700&display=swap");
+
+// body, .editor-post-title__block .editor-post-title__input {
+	// font-family: 'Open Sans', sans-serif;
+// }
+
+.wp-block {
+	max-width: 1140px;
+}
+.wp-block[data-align="wide"] {
+    max-width: 1280px;
+}
+.wp-block[data-align="full"] {
+    max-width: none;
+}
+
+.block-editor-plain-text {
+	font-family: 'Courier New';
+	color: black;
+	font-size: 12px;
+	max-height: 300px;
+}
+
+.d-none, .d-xs-none, .d-sm-none, .d-md-none, .d-lg-none, .d-xl-none {
+	display: block !important;
+	opacity: .3;
+}
+.components-button {
+	overflow: hidden;
+}
+
+.wp-block-cover {
+
+	&.is-style-superpuesto,
+	&.is-style-apilado {
+
+		.wp-block-cover__inner-container {
+			background-color: rgba(255,255,255,.95);
+			color: black;
+			padding: 1rem;
+			width: 85%;
+			border: 1px solid lightgray;
+		}
+
+	}
+
+	&.is-style-superpuesto {
+		justify-content: flex-start;
+		align-items: flex-start;
+		padding: 4px;
+
+		.wp-block-cover__inner-container {
+			max-width: 400px;
+		}
+	}
+
+	&.is-style-apilado {
+		display: block;
+
+		.wp-block-cover__image-background {
+			position: relative;
+		}
+
+		.wp-block-cover__inner-container {
+			margin-top: -30px;
+		}
+
+	}
+
+	&.is-style-imagen-cabecera {
+		position: relative;
+		padding: 0;
+
+		> .wp-block-cover__inner-container {
+			padding: 1rem;
+
+			&:after {
+				content: "";
+				position: absolute;
+				display: block;
+				left: 0;
+				top: 100%;
+				width: 55%;
+				height: 3em;
+				background-color: white;
+
+			}
+		}
+
+	}
+}

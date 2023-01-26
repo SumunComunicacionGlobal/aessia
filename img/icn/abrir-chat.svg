@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="16px" height="16px" viewBox="0 0 16 16" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>abrir-chat</title>
+    <g id="🖥-Desktop" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="aessia-nivel-2-contacto" transform="translate(-127.000000, -520.000000)">
+            <g id="abrir-chat" transform="translate(128.000000, 521.000000)">
+                <path d="M4.91359528,14 C2.55861172,13.2991192 0.701530768,11.4422817 0.000309605919,9.08749303 M13.9996904,9.08749303 C13.2985725,11.441935 11.441935,13.2985725 9.08749303,13.9996904 M9.08749303,0.000309605919 C11.4422817,0.701530768 13.2991192,2.55861172 14,4.91359528 M0,4.91359528 C0.700984016,2.55826505 2.55826505,0.700984016 4.91359528,0" id="Shape" stroke="#9BC01C" stroke-linecap="round"></path>
+                <circle id="Oval" fill="#9BC01C" cx="7" cy="7" r="3"></circle>
+            </g>
+        </g>
+    </g>
+</svg>

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="24px" height="24px" viewBox="0 0 24 24" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>icn/arrow-link-icn@3x</title>
+    <defs>
+        <filter color-interpolation-filters="auto" id="filter-1">
+            <feColorMatrix in="SourceGraphic" type="matrix" values="0 0 0 0 0.016579 0 0 0 0 0.260530 0 0 0 0 0.453408 0 0 0 1.000000 0"></feColorMatrix>
+        </filter>
+    </defs>
+    <g id="icn/arrow-link-icn" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g filter="url(#filter-1)" id="arrow-link-w-icn-copy-6">
+            <g>
+                <rect id="Rectangle" x="0" y="0" width="24" height="24"></rect>
+                <path d="M10.1142857,21.4285714 C5.77657565,20.3478737 2.57142857,16.5362612 2.57142857,12 C2.57142857,7.46373882 5.77657565,3.6521263 10.1142857,2.57142857 M13.8857143,2.57142857 C18.2234813,3.6524336 21.4285714,7.46393127 21.4285714,12 C21.4285714,16.5360687 18.2234813,20.3475664 13.8857143,21.4285714" id="Shape" stroke="#044274" stroke-width="1.71428571" stroke-linecap="round"></path>
+                <rect id="Rectangle" fill="#044274" x="7" y="11" width="6" height="1.71428571" rx="0.857142857"></rect>
+                <g id="Group" transform="translate(12.857143, 12.000000) rotate(-45.000000) translate(-12.857143, -12.000000) translate(9.428571, 8.571429)" fill="#044274">
+                    <rect id="Rectangle-Copy-4" x="0" y="5.14285714" width="6.85714286" height="1.71428571" rx="0.857142857"></rect>
+                    <rect id="Rectangle-Copy-5" x="5.14285714" y="0" width="1.71428571" height="6.85714286" rx="0.857142857"></rect>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="20px" height="20px" viewBox="0 0 20 20" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>icn/website-16-icn@3x</title>
+    <g id="icn/website-16-icn" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" stroke-linecap="round" stroke-linejoin="round">
+        <path d="M10,3.0001 C6.134,3.0001 3,6.1341 3,10.0001 C3,13.8661 6.134,17.0001 10,17.0001 C13.866,17.0001 17,13.8661 17,10.0001" id="Stroke-1" stroke="#044274"></path>
+        <line x1="10" y1="3.0001" x2="10" y2="17.0001" id="Stroke-3" stroke="#044274"></line>
+        <line x1="16.0625" y1="6.5001" x2="3.9365" y2="6.5001" id="Stroke-5" stroke="#044274"></line>
+        <line x1="17" y1="10.0001" x2="4.5" y2="10.0001" id="Stroke-7" stroke="#044274"></line>
+        <path d="M10,3.0001 C7.875,4.5961 6.5,7.1371 6.5,10.0001 C6.5,12.8631 7.875,15.4041 10,17.0001" id="Stroke-9" stroke="#044274"></path>
+        <path d="M10,3.0001 C12.125,4.5961 13.5,7.1371 13.5,10.0001 C13.5,12.8631 12.125,15.4041 10,17.0001" id="Stroke-11" stroke="#044274"></path>
+        <path d="M12.2822,3.381 C11.5672,3.134 10.7992,3 10.0002,3 C6.1342,3 3.0002,6.134 3.0002,10 C3.0002,13.866 6.1342,17 10.0002,17 C13.8662,17 17.0002,13.866 17.0002,10 C17.0002,8.725 16.6592,7.529 16.0632,6.5 C15.7492,5.957 15.3652,5.461 14.9222,5.023" id="Stroke-13" stroke="#044274"></path>
+        <line x1="7.043" y1="13.5001" x2="3.937" y2="13.5001" id="Stroke-15" stroke="#044274"></line>
+        <line x1="16.0625" y1="13.5001" x2="9.0335" y2="13.5001" id="Stroke-17" stroke="#044274"></line>
+    </g>
+</svg>

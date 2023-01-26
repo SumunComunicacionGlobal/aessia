@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="24px" height="24px" viewBox="0 0 24 24" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>icn/arrow-bullet-icn@3x</title>
+    <g id="icn/arrow-bullet-icn" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <rect id="Rectangle" x="0" y="0" width="24" height="24"></rect>
+        <rect id="Rectangle" fill="#044274" x="2" y="11" width="13" height="2" rx="1"></rect>
+        <g id="Group" transform="translate(16.000000, 12.000000) rotate(-45.000000) translate(-16.000000, -12.000000) translate(12.000000, 8.000000)" fill="#044274">
+            <rect id="Rectangle-Copy-4" x="0" y="6" width="8" height="2" rx="1"></rect>
+            <rect id="Rectangle-Copy-5" x="6" y="0" width="2" height="8" rx="1"></rect>
+        </g>
+    </g>
+</svg>

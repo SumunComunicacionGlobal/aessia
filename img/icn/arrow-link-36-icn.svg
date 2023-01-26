@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="36px" height="36px" viewBox="0 0 36 36" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>icn/arrow-link-36-icn@3x</title>
+    <g id="icn/arrow-link-36-icn" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <rect id="Rectangle" x="0" y="0" width="36" height="36"></rect>
+        <path d="M15.1714286,32.1428571 C8.66486347,30.5218105 3.85714286,24.8043918 3.85714286,18 C3.85714286,11.1956082 8.66486347,5.47818945 15.1714286,3.85714286" id="Path" stroke="#044274" stroke-width="2" stroke-linecap="round"></path>
+        <path d="M20.8285714,3.85714286 C27.3352219,5.4786504 32.1428571,11.1958969 32.1428571,18 C32.1428571,24.8041031 27.3352219,30.5213496 20.8285714,32.1428571" id="Path" stroke="#044274" stroke-width="2" stroke-linecap="round"></path>
+        <rect id="Rectangle" fill="#044274" x="10" y="17" width="9" height="2" rx="1"></rect>
+        <g id="Group" transform="translate(20.000000, 18.000000) rotate(-45.000000) translate(-20.000000, -18.000000) translate(15.000000, 13.000000)" fill="#044274">
+            <rect id="Rectangle-Copy-4" x="0" y="8" width="10" height="2" rx="1"></rect>
+            <rect id="Rectangle-Copy-5" x="8" y="0" width="2" height="10" rx="1"></rect>
+        </g>
+    </g>
+</svg>

@@ -1,0 +1,254 @@
+html {
+	scroll-behavior: smooth;
+	overflow-x: hidden;
+}
+* {
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+/* Fixed header fix */
+:target:before {
+	content: "";
+	display: block;
+	height: 65px; /* same as your fixed header height */
+	margin: -65px 0 0; /* negative fixed header height */
+}
+
+.admin-bar {
+
+	.fixed-top {
+		top: 46px;
+	}
+}
+a {
+	img, svg {
+		transition: opacity .3s ease;
+	}
+	&:hover {
+		img, svg {
+			opacity: .7;
+		}
+	}
+}
+
+.text-white a {
+	color: $white;
+}
+button.navbar-toggler:focus {
+	outline: 0;
+}
+.alignfull, .alignwide {
+	// margin: 32px calc(50% - 50vw);
+	margin: 0 calc(50% - 50vw);
+	max-width: 100vw;
+	width: 100vw;
+}
+
+.alignfull {
+	margin-bottom: $spacer * 2;
+}
+
+.wp-block-group, .wp-block-cover {
+
+	&.alignfull, &.alignwide {
+		padding: 0 !important;
+	}
+}
+
+.alignfull > .wp-block-cover__inner-container,
+.alignfull > .wp-block-group__inner-container {
+    @include make-container();
+    @include make-container-max-widths();
+
+}
+
+@include media-breakpoint-up(lg) {
+	.alignwide {
+		// background-color: #f1f1f1;
+		margin: 0 calc( 50% - 1360px/2 );
+		max-width: map-get( $grid-breakpoints, 'lg' );
+		width: map-get( $grid-breakpoints, 'lg' );
+	}
+}
+
+@include media-breakpoint-up(xl) {
+	.alignwide {
+		margin: 0 calc( 50% - 1540px/2 );
+		max-width: map-get( $grid-breakpoints, 'xl' );
+		width: map-get( $grid-breakpoints, 'xl' );
+	}
+}
+
+.redes-sociales {
+	display: flex;
+	width: 100%;
+	align-items: center;
+
+	.red-social {
+		font-size: 2rem;
+		margin-right: 1rem;
+	}
+
+}
+
+.bg-cover { 
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+	background-position: center center;
+}
+.full-screen {
+	min-height: 100vh;
+}
+// .has-background:not(.wp-block-separator):not(.wp-block-button__link) {
+// 	padding: 1rem;
+// }
+hr {
+	margin-top: 2rem;
+	margin-bottom: 2rem;
+}
+
+.wp-block-image figcaption {
+	font-size: $font-size-sm;
+}
+.object-fit-cover {
+	object-fit: cover;
+}
+.wp-block-table {
+	th, td {
+		padding: .8rem;
+	}
+}
+.pagination {
+	margin-top: 2rem;
+}
+.comments-area {
+	margin-top: 3rem;
+}
+.wp-columns-block-no-gutters {
+
+	.wp-block-column:not(:first-child) {
+		margin-left: 0;
+	}
+}
+.back-to-top {
+	position: fixed;
+	right: 0px;
+	bottom: 0px;
+	width: 60px;
+	height: 60px;
+	background-color: $light;
+	border: 1px solid transparent;
+	color: $white;
+	opacity: 0;
+	transition: all .3s ease;
+	z-index: 10000;
+	transform: rotate(270deg);
+	background-image: url('../img/icn/arrow-bread-20-icn.svg');
+	background-size: 30px auto;
+	background-position: center;
+	background-repeat: no-repeat;
+
+	&:hover {
+		background-color: darken($light, 10);
+		border: 1px solid darken($light, 10);
+	}
+}
+.scrolled .back-to-top {
+	opacity: .9;
+}
+table {
+	tr {
+		border: 1px solid transparentize($body-color, .8);
+	}
+	th {
+		background-color: $light;
+	}
+}
+/* Slider */
+.slide-wrapper {
+	height: 350px;
+	display: flex;
+	align-items: center;
+}
+/***/
+
+/* Tipografía */
+.has-large-font-size, .has-large-font-size, .has-huge-font-size {
+	line-height: 1.2;
+}
+
+/***/
+/* Formularios */
+.wpcf7 {
+	max-width: 100% !important;
+}
+.wpcf7-response-output {
+    height: auto !important;
+}
+.form-control-sm {
+	height: auto;
+}
+/***/
+
+/* Blog */
+.post-navigation {
+	margin-top: $spacer * 2;
+	.nav-links {
+		font-weight: $font-weight-bold;
+	}
+}
+
+/***/
+
+/* Widgets */
+.widget-area {
+
+	.widget {
+		margin-bottom: 2rem;
+	}
+}
+/***/
+
+/* Header */
+#wrapper-navbar {
+	transition: background-color .3s ease;
+}
+.scrolled {
+	#wrapper-navbar {
+		background-color: $white;
+		border-bottom: 1px solid $light;
+	}
+}
+
+/***/
+
+/* Footer */
+.footer-widget {
+	margin-bottom: 1rem;
+}
+/***/
+@each $color, $value in $theme-colors {
+  .has-#{$color}-color {
+  	color: $value !important;
+  }
+  .wp-block-cover.has-#{$color}-background-color,
+  .has-#{$color}-background-color {
+  	background-color: $value;
+  }
+  .btn-outline-#{$color}:hover {
+  	background-color: transparent;
+  	color: $value;
+  }
+}
+
+@include media-breakpoint-up(md) {
+	.admin-bar {
+
+		.fixed-top {
+			top: 32px;
+		}
+	}
+}

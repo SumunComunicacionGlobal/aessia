@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="64px" height="64px" viewBox="0 0 64 64" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>icn/circle-64-icn@3x</title>
+    <g id="icn/circle-64-icn" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" stroke-linecap="round">
+        <path d="M26.3428571,60.2857143 C13.3297269,57.0436211 3.71428571,45.6087835 3.71428571,32 C3.71428571,18.3912165 13.3297269,6.9563789 26.3428571,3.71428571" id="Path" stroke="#044274" stroke-width="2"></path>
+        <path d="M37.6571429,3.71428571 C50.6704439,6.95730081 60.2857143,18.3917938 60.2857143,32 C60.2857143,45.6082062 50.6704439,57.0426992 37.6571429,60.2857143" id="Path" stroke="#044274" stroke-width="2"></path>
+    </g>
+</svg>

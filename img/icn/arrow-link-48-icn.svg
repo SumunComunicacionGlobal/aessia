@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="42px" height="42px" viewBox="0 0 42 42" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>icn/arrow-link-48-icn@3x</title>
+    <g id="Symbols" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="cards/m-cards-acceso-sf" transform="translate(-27.000000, -215.000000)">
+            <g id="Group-2" transform="translate(24.000000, 212.000000)">
+                <rect id="Rectangle" x="0" y="0" width="48" height="48"></rect>
+                <path d="M20.2285714,42.8571429 C11.5531513,40.6957474 5.14285714,33.0725224 5.14285714,24 C5.14285714,14.9274776 11.5531513,7.3042526 20.2285714,5.14285714" id="Path" stroke="#044274" stroke-width="2.66666667" stroke-linecap="round"></path>
+                <path d="M27.7714286,5.14285714 C36.4469626,7.30486721 42.8571429,14.9278625 42.8571429,24 C42.8571429,33.0721375 36.4469626,40.6951328 27.7714286,42.8571429" id="Path" stroke="#044274" stroke-width="2.66666667" stroke-linecap="round"></path>
+                <rect id="Rectangle" fill="#044274" x="13.3333333" y="22.6666667" width="12" height="2.66666667" rx="1.33333333"></rect>
+                <g id="Group" transform="translate(26.666667, 24.000000) rotate(-45.000000) translate(-26.666667, -24.000000) translate(20.000000, 17.333333)" fill="#044274">
+                    <rect id="Rectangle-Copy-4" x="0" y="10.6666667" width="13.3333333" height="2.66666667" rx="1.33333333"></rect>
+                    <rect id="Rectangle-Copy-5" x="10.6666667" y="0" width="2.66666667" height="13.3333333" rx="1.33333333"></rect>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>
