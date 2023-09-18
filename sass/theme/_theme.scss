@@ -155,6 +155,7 @@
 	&.is-style-apilado {
 		display: block;
 		padding: 0;
+		color: $body-color;
 
 		img.wp-block-cover__image-background {
 			position: relative;
@@ -299,6 +300,10 @@ h1:after, h2:after, h3:after, h4:after, h5:after, h6:after,
 	display: block;
 	margin: .9rem 0;
 }
+.has-antetitulo-font-size.has-text-align-center:after {
+	margin-left: auto;
+	margin-right: auto;
+}
 #aessia-menu-modal .navbar-movil .dropdown-toggle:after {
 	border: 0;
 }
@@ -370,6 +375,11 @@ h1, h2, h3, h4, h5, h6 {
 sub {
 	font-size: 50%;
 	bottom: 0 !important;
+}
+
+.has-text-align-center {
+	margin-left: auto;
+	margin-right: auto;
 }
 /***/
 

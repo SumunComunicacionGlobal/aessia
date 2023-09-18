@@ -15,11 +15,17 @@ defined( 'ABSPATH' ) || exit;
 
 	<div class="col-md-4">
 
-		<div class="sticky-top">
+		<div class="sticky-top mb-2">
 
 			<div class="bg-light p-2 mb-2">
 
 				<?php aessia_datos_formacion(); ?>
+
+			</div>
+
+			<div class="bg-light p-2 mb-2 d-none d-md-block">
+
+				<?php dynamic_sidebar( 'formacion-sidebar' ); ?>
 
 			</div>
 

@@ -11,7 +11,7 @@ defined( 'ABSPATH' ) || exit;
 
 <article <?php post_class( 'mb-2' ); ?> id="post-<?php the_ID(); ?>">
 
-	<div class="wp-block-cover alignwide superpuesto superpuesto-arriba-izquierda is-style-superpuesto">
+	<div class="wp-block-cover alignwide superpuesto superpuesto-arriba-izquierda is-style-superpuesto has-text-color">
 
 		<?php the_post_thumbnail( 'large', array( 'class' => 'wp-block-cover__image-background' ) ); ?>
 

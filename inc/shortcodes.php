@@ -537,7 +537,7 @@ function get_tarjeta( $titulo, $resumen = false, $url = false, $id_imagen = fals
 
 	if ( $id_imagen ) {
 		$background_dim = 'has-background-dim';
-		$text_color = '';
+		$text_color = 'has-white-color has-text-color';
 	}
 
 	if ( $url ) {

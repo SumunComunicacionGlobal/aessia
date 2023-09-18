@@ -121,6 +121,18 @@ if ( ! function_exists( 'understrap_widgets_init' ) ) {
 
 		register_sidebar(
 			array(
+				'name'          => __( 'Barra lateral formación', 'understrap' ),
+				'id'            => 'formacion-sidebar',
+				'description'   => __( 'Inserta aquí por ejemplo un formulario para captar leads', 'understrap' ),
+				'before_widget' => '<aside id="%1$s" class="widget %2$s">',
+				'after_widget'  => '</aside>',
+				'before_title'  => '<p class="widget-title">',
+				'after_title'   => '</p>',
+			)
+		);
+
+		register_sidebar(
+			array(
 				'name'          => __( 'Tutoriales', 'aessia' ) . ' ' . __( 'Right Sidebar', 'understrap' ),
 				'id'            => 'right-sidebar-tutorial',
 				'description'   => __( 'Right sidebar widget area', 'understrap' ),

@@ -62,10 +62,15 @@ if ( is_home() || is_archive() ) {
 
 	}
 
-	if ( !isset( $wp_query->query['post_type'] ) ) return false;
+	// if ( !isset( $wp_query->query['post_type'] ) ) return false;
 	
-	$post_type = $wp_query->query['post_type'];
-	$pt_taxonomies = get_post_type_object( $wp_query->query['post_type'] )->taxonomies;
+	if ( isset( $wp_query->query['post_type'] ) ) {
+		$post_type = $wp_query->query['post_type'];
+	} else {
+		$post_type = 'post';
+	}
+	$pt_object = get_post_type_object( $post_type );
+	$pt_taxonomies = $pt_object->taxonomies;
 
 	// if ( $taxonomy_filter ) :
 
@@ -98,7 +103,7 @@ if ( is_home() || is_archive() ) {
 
 					<div class="collapse navbar-collapse" id="navbar-filtro">
 
-						<ul class="navbar-nav">
+						<ul class="navbar-nav flex-wrap">
 
 							<li class="nav-item<?php echo $active_class; ?>">
 
